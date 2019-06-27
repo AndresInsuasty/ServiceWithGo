@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PLAN DE MANTENIMIENTO PREVENTIVO CON ALERTAS</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <form action="login" method="POST" class="form">
+              <div class="form-header">
+                  <h1 class="form-title">P<span>LAN DE MANTENIMIENTO PREVENTIVO</span></h1>
+              </div>      
+              <label for="nombre" class="form-label">Nombre:</label>
+              <input type="text" name="nombre" class="form-input" placeholder="Maquina o Equipo">
+
+              <label for="codigo1" class="form-label">Codigo 1:</label>
+              <input type="number" name="codigo1" class="form-input" placeholder="Inserte Codigo 1">
+
+              <label for="codigo2" class="form-label">Codigo 2:</label>
+              <input type="number" name="codigo2" class="form-input" placeholder="Inserte codigo 2">
+
+              <label for="detalle" class="form-label">Detalle mantenimiento:</label>
+              <input type="text" name="detalle" class="form-input" placeholder="Inserte Observaciones">
+
+              <label for="proveedor" class="form-label">Proveedor:</label>
+              <input type="text" name="proveedor" class="form-input" placeholder="Nombre del Proveedor">
+
+              <label for="responsable" class="form-label">Responsable:</label>
+              <input type="text" name="responsable" class="form-input" placeholder="Nombre del responsable">
+
+              <label for="presupuesto" class="form-label">Presupuesto:</label>
+              <input type="number" name="presupuesto" class="form-input" placeholder="valor del presupuesto">
+
+              <label for="fechalimite" class="form-label">Fecha Limite:</label>
+              <input type="date" name="fechalimite" class="form-date">
+
+              <label for="periodicidad" class="form-label">Periodicidad:</label>
+              <input type="number" name="periodicidad" class="form-input" placeholder="inserte periodicidad">
+
+              <input type="submit" class="btn-submit" class="form-input" value="Registrar" formmethod="POST">
+
+
+
+        </form>
+    </div>
+</body>
+</html>
